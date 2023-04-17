@@ -32,12 +32,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .flex-container .left {
-    /* flex left styles here... */
-    width: 400px;
     height: 500px;
 }
 
@@ -112,6 +110,12 @@ body {
     border-radius: 10px;
     font-weight: 700;
     margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.3 ease;   
+}
+
+.right .cart:hover {
+    background: #006400;
 }
 
 .right .cart-logo {
@@ -121,5 +125,37 @@ body {
 /* styles for the cart-text */
 .right .cart-text {
     
+}
+
+/* attribution styles */
+.attribution {
+    margin-bottom: 20px;
+}
+
+
+/* Responsive styles... */
+@media (min-width: 350px) and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    
+    .flex-container .left {
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .flex-container .left img {
+        width: 300px;
+        height: 400px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    .flex-container .right {
+        width: 300px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
 }
 
