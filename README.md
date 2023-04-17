@@ -1,5 +1,7 @@
 # Frontend Mentor - Product preview card component
 
+> *This project is aimed at revising some concepts in css...special thanks to Frontend mentor for great UI designs...*
+
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
